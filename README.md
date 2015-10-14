@@ -1,5 +1,7 @@
 # xpIRL::Achieve
 
+[![Build Status](https://travis-ci.org/davelowensohn/xpirl-achieve.svg?branch=master)](https://travis-ci.org/davelowensohn/xpirl-achieve)
+
 Achievement badge repository & API for xpIRL.
 
 ## Roadmap to 1.0
