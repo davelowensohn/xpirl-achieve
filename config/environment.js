@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'xpirl-achieve',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://burning-torch-2808.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
