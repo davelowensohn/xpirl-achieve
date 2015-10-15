@@ -72,8 +72,9 @@ Specify what it takes to deploy your app.
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
 * Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+* [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [Medium article I followed on 10/14/15 re: Ember + Firebase](https://medium.com/@jamesfuthey/a-gentle-introduction-to-ember-2-0-8ef1f378ee4)
 
 ## TODO & FIXME
 
