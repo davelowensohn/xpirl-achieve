@@ -11,6 +11,6 @@ export default Ember.Component.extend({
       this.set('newAchievement.name', null);
       this.set('newAchievement.description', null);
     }
+    
   }
-
 });

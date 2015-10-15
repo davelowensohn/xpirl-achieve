@@ -1,6 +1,7 @@
 <ul>
   {{#each model as |achievement|}}
       <li class="achievement-list-item">
+        <button type="button" name="button" class="destroyer" {{action 'destroyAchievement' achievement}}>Destroy</button>
         <span class="achievement-name">{{achievement.name}}</span>
         <span class="achievement-description">{{achievement.description}}</span>
       </li>

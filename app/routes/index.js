@@ -13,7 +13,15 @@ export default Ember.Route.extend({
       description: model.description,
       createdDate: new Date()
     });
-    achievement.save();
+      achievement.save();
+    },
+
+    destroyAchievement: function(doomedAchievement) {
+      if (confirm("Are you sure you want to do this?!")) {
+        this.store.findRecord('achievement', doomedAchievement.id).then(function(deader) {
+          deader.destroyRecord();
+        });
+      }
     }
   }
 });

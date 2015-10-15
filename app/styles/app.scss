@@ -11,6 +11,11 @@ body {
   margin: 20px;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 h2 {
   font-size: 36px;
   font-family: fantasy;
@@ -50,6 +55,12 @@ h2 {
 
 button {
   background-color: #f6f;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  &.destroyer {
+    background-color: #f00;
+  }
 
   &:hover {
     background-color: #ff9;
@@ -72,4 +83,5 @@ button {
 .achievement-description {
   display: inline-block;
   color: #00f;
+  width: 507px;
 }
