@@ -1,2 +1,9 @@
-achievement-index
+<ul>
+  {{#each model as |achievement|}}
+      <li class="achievement-list-item">
+        <span class="achievement-name">{{achievement.name}}</span>
+        <span class="achievement-description">{{achievement.description}}</span>
+      </li>
+  {{/each}}
+</ul>
 {{yield}}

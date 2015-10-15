@@ -1,2 +1,12 @@
-achievement-new
+<hr>
+<div class="form-name">
+  {{input value=newAchievement.name placeholder='Name'}}
+</div>
+
+<div class="form-description">
+  {{input value=newAchievement.description placeholder='Description'}}
+</div>
+
+<button type="button" name="submit" {{action 'createAchievement' newAchievement}}>Create</button>
+
 {{yield}}

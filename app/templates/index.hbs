@@ -1,4 +1,5 @@
-index.hbs
-{{achievement-index}}
-{{achievement-new}}
+{{achievement-index model=model}}
+
+{{achievement-new createAchievement='createAchievement'
+                  newAchievement=model}}
 {{outlet}}

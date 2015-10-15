@@ -6,21 +6,23 @@ moduleForComponent('achievement-index', 'Integration | Component | achievement i
 });
 
 test('it renders', function(assert) {
-  assert.expect(2);
+  assert.expect(1);
 
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });
 
   this.render(hbs`{{achievement-index}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  // assert.equal(this.$().text().trim(), '');
+  //
+  // // Template block usage:
+  // this.render(hbs`
+  //   {{#achievement-index}}
+  //     template block text
+  //   {{/achievement-index}}
+  // `);
 
-  // Template block usage:
-  this.render(hbs`
-    {{#achievement-index}}
-      template block text
-    {{/achievement-index}}
-  `);
+  assert.equal(this.$('.achievement-index').length, 1);
 
-  assert.equal(this.$().text().trim(), 'template block text');
+  // assert.equal(this.$().text().trim(), 'template block text');
 });

@@ -1,10 +1,75 @@
 @import "bourbon";
 
 * {
-  font-family: fantasy;
-  background-color: #fdc;
+  font-family: cursive;
+  font-size: 18px;
+  @include transition(all 0.15s);
 }
 
 body {
+  background-color: #fdc;
   margin: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: fantasy;
+  color: #000;
+}
+
+.form-name {
+  display: inline-block;
+
+  input {
+    background-color: #dcf;
+    vertical-align: text-bottom;
+    border: none;
+    padding-left: 5px;
+
+    &:hover {
+      background-color: #ff9;
+    }
+  }
+}
+
+.form-description {
+  display: inline-block;
+
+  input {
+    background-color: #cfd;
+    vertical-align: text-bottom;
+    border: none;
+    width: 500px;
+    padding-left: 5px;
+
+    &:hover {
+      background-color: #ff9;
+    }
+  }
+}
+
+button {
+  background-color: #f6f;
+
+  &:hover {
+    background-color: #ff9;
+  }
+}
+
+.achievement-list-item {
+  &:hover {
+    background-color: #ff9;
+  }
+}
+
+.achievement-name {
+  display: inline-block;
+  color: #f00;
+  width: 150px;
+  text-transform: capitalize;
+}
+
+.achievement-description {
+  display: inline-block;
+  color: #00f;
 }
